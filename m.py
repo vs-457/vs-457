@@ -1,4 +1,4 @@
-#script by @venomXcrazy
+#script by @vv457
 
 import telebot
 import subprocess
@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7543594921:AAEb0Qs9usGggKGl0Q-iZ-JimDzJhtv01e0')
+bot = telebot.TeleBot('7589540803:AAFgUV3onHQ-wxPIMg_exPpeWx39KzmuCBQ')
 
 # Admin user IDs
-admin_id = ["5894556386"]
+admin_id = ["5841053257"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -48,7 +48,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5588464519"]
+    admin_id = ["584153257"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
@@ -395,9 +395,9 @@ def welcome_plan(message):
     response = f'''{user_name}, Brother Only 1 Plan Is Powerfull Then Any Other Ddos !!:
 
 Vip 🌟 :
--> Attack Time : 300 (S)
+-> Attack Time : 360 (S)
 > After Attack Limit : 10 sec
--> Concurrents Attack : 5
+-> Concurrents Attack : 15
 
 Pr-ice List💸 :
 Day-->80 Rs
